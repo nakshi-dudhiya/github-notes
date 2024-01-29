@@ -55,7 +55,7 @@ cd GitHub-Examples
 We will need to create our own SSH rsa key pair
 
 ```sh
-sshe-keygen -t rsa
+ssh-keygen -t rsa
 ```
 
 For WSL users and if you crete a non default key you might need to add it
@@ -111,6 +111,8 @@ git commit -m "add another exclamation"
 
 ## Branches
 
+A git branch is a divergence of the state of the repo
+
 List of branches
 
 ```
@@ -122,12 +124,31 @@ Create a new branch
 git branch branch-name
 ```
 
-Checkout the branch
+Create a new branch and checkout at the same time
+```
+git branch -b branch-name
+```
+
+Checkout(Switch) the branch
 
 ```
-git checkout dev
+git checkout branch-name
 ```
 
+Rename an old branch
+```
+git branch -m [old-name] [new-name]
+```
+
+Delete a branch
+```
+git branch -d [branch-name]:
+```
+
+List both local and remote branches
+```
+git branch -a
+```
 
 ## Remotes
 
