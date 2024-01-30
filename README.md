@@ -233,3 +233,70 @@ When we want to push a repo to our remote origin
 ```
 git push
 ```
+
+## Github Desktop
+
+It is a stand-alone application to interact with Github repos without the browser or via code.
+
+Common Git and GitHub operations can be performed via the GUI. Supports MAC, Windows and Linux
+
+``https://desktop.github.com/``
+
+## Github.com VS Github Desktop 
+
+
+|           Github.com                  |    
+| ------------------------------------- | 
+| Web-based interface via Browser       | 
+| Accessible anywhere with internet     |
+| Directly manage online repos          |
+| Perform fork, star, watch             |
+| Direct collarboration like PRs, issues|
+| supports advanced features            |
+| integrates with CI/CD tool            |
+
+
+|           Github Desktop              |    
+| ------------------------------------- | 
+| Standalone application                | 
+| accessible only on installed computer |
+| manage local copies of repos          |
+| Perform commit, push, pull            |
+| Focus on local repo management        |
+| supports basic features               |
+| limited to local Git tools            |
+
+
+## Github Mobile
+
+It is a mobile application you can install to perform read-only or basic Github repo management tasks.
+
+- Manage, triage and clear notifications
+- Read, review and collaborate on issues and pull request
+- Edit files in pull request
+- Search, browse and interact with users, repos, organizations
+- receive push notifications on name mentions
+- search through code
+- secure account with 2FA
+- verify sign-in attemps
+- can be used for UFA
+
+``
+You want push notifications for 
+- Direct mentions
+- review requested
+- assigned
+- deployment review
+- pull request review
+- workflow runs
+``
+
+``
+Swipe options for : Save, Mark as read, Mark as done, Unsubscribe
+``
+
+## Types of Github Accounts
+
+1) Personal Accounts
+2) Organization Accounts
+3) Enterprise Accounts
